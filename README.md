@@ -99,7 +99,7 @@ The API connector configuration should look like the following:
 <img src="media/api-connector-config-idology.png" alt="API connector configuration"
     title="API connector configuration" width="400" />
 
-### Enable an API connectors in the user flow
+### Enable the API connector in the user flow
 
 Enable the API connector for the user flow. Navigate to **User flows (Preview)**, click the user flow you created, and click on **API connectors**. From here, click on the drop-down menu for **Before creating the user** and select the API connector (e.g. 'Verify identity with IDology').
 
