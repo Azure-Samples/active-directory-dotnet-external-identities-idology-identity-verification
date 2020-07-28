@@ -4,7 +4,7 @@ languages:
 - csharp
 products:
 - azure-active-directory
-description: "Sample for integrating External Identities self-service sign-up with IDology identity proofing using API connectors"
+description: "Sample for integrating External Identities self-service sign-up with IDology identity verification using API connectors"
 urlFragment: "active-directory-dotnet-external-identities-idology-identity-proofing"
 ---
 
