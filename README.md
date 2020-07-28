@@ -4,15 +4,15 @@ languages:
 - csharp
 products:
 - azure-active-directory
-description: "Sample for integrating External Identities self-service sign-up with IDology identity proofing using API connectors"
-urlFragment: "active-directory-dotnet-external-identities-idology-identity-proofing"
+description: "Sample for integrating External Identities self-service sign-up with IDology identity verification using API connectors"
+urlFragment: "active-directory-dotnet-external-identities-idology-identity-verification"
 ---
 
 # IDology External Identities self-service sign-up API connector integration
 
 Azure Active Directory (Azure AD) External Identities enable you to provide [self-service sign-up](https://docs.microsoft.com/azure/active-directory/b2b/self-service-sign-up-overview) for external users so that collaboration is seamless and end-user friendly. [API connectors](https://docs.microsoft.com/azure/active-directory/b2b/api-connectors-overview) enable you to leverage web APIs to integrate those self-service sign-up flows with external cloud systems.
 
-Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use IDology's identity verification and proofing service including ID verification, Fraud prevention, Compliance, and other solutions.
+Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use IDology's identity verification and verification service including ID verification, Fraud prevention, Compliance, and other solutions.
 
 ## Contents
 
@@ -37,7 +37,7 @@ The IDology integration is comprised of the following components:
 - IDology -- The IDology service takes inputs provided by the user and
     verifies the user's identity.
 - Custom web API -- This provided API implements the integration
-    between the Azure AD self-service sign-up user flow and the IDology service to perform identity proofing at sign-up.
+    between the Azure AD self-service sign-up user flow and the IDology service to perform identity verification at sign-up.
 - Azure AD External Identities self-service sign-up - The way to allow external customers to sign-up as external users to your organization.
 - API connector - Part of a self-service sign-up, allows you to connect the sign-up flow with the custom web API.
 
