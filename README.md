@@ -12,11 +12,10 @@ urlFragment: "active-directory-dotnet-external-identities-idology-identity-verif
 
 Azure Active Directory (Azure AD) External Identities enable you to provide [self-service sign-up](https://docs.microsoft.com/azure/active-directory/b2b/self-service-sign-up-overview) for external users so that collaboration is seamless and end-user friendly. [API connectors](https://docs.microsoft.com/azure/active-directory/b2b/api-connectors-overview) enable you to leverage web APIs to integrate those self-service sign-up flows with external cloud systems.
 
-Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use IDology's identity verification and verification service including ID verification, Fraud prevention, Compliance, and other solutions.
+
+Verifying a user's identity can be critical to securing an application from fraudulent and malicious actors and confidently allowing self-service sign-up. To accomplish this, you can use IDology's identity services including ID verification, Fraud prevention, Compliance, and other solutions.
 
 ## Contents
-
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
 
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
@@ -43,7 +42,7 @@ The IDology integration is comprised of the following components:
 
 ## Create an IDology account
 
-When you are ready to get an IDology account, sign up using [this]https://www.idology.com/request-a-demo/microsoft-integration-signup/) web form.
+When you are ready to get an IDology account, sign up using [this](https://www.idology.com/request-a-demo/microsoft-integration-signup/) web form.
 
 ## Deploy the API
 
@@ -80,7 +79,7 @@ Under **User Attributes**, the following must be selected in order to collect th
 ### Create an API Connector
 
 After the Azure AD tenant has been configured for use with External
-Identities, [create an API connector](https://docs.microsoft.com/azure/active-directory/b2b/self-service-sign-up-add-api-connector#create-an-api-connector)
+Identities self-service sign-up, [create an API connector](https://docs.microsoft.com/azure/active-directory/b2b/self-service-sign-up-add-api-connector#create-an-api-connector)
 
 - **Display Name**: Choose a name such as 'Verify identity with IDology'.
 - **Endpoint URL**: Use the URL created when publishing the API service.
