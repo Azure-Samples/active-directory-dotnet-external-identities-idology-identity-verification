@@ -85,12 +85,6 @@ Identities self-service sign-up, [create an API connector](https://docs.microsof
 - **Endpoint URL**: Use the URL created when publishing the API service.
 - **Username**: Username defined in the API configuration above (WebApiSettings:ApiUsername)
 - **Password**: Password defined in the API configuration above (WebApiSettings:ApiPassword)
-- **Claims to Send**
-    - Given Name
-    - Surname
-    - Street Address
-    - Postal Code
-
 
 The API connector configuration should look like the following:
 
